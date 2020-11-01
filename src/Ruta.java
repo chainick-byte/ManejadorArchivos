@@ -14,8 +14,8 @@ public class Ruta {
 
     String ruta;
     String slash="/";
-    static String auxiliar="";
-    //variable auxiliar guarda la ruta del archivo seleccionado
+     //variable auxiliar guarda la ruta del archivo seleccionado
+    static String auxiliar="";  
     static int seleccionar;
 
     public static void setAuxiliar(String auxiliar) {

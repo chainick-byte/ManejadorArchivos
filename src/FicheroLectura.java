@@ -21,7 +21,7 @@ public class FicheroLectura {
         try {
 
             BufferedReader br = new BufferedReader(new FileReader(ruta.dameRutaAbrir()));
-            for (linea = br.readLine(); linea != null; linea = br.readLine()) {
+        for (linea = br.readLine(); linea != null; linea = br.readLine()) {
                 fichero.add(linea);
             }
             for (int i = 0; i < fichero.size(); i++) {
@@ -38,5 +38,7 @@ public class FicheroLectura {
         return null;
 
     }
+
+   
 
 }

@@ -142,6 +142,7 @@ public class Aplicacion extends javax.swing.JFrame {
             auxiliar = auxiliar + fichero.get(i) + "\n";
             VentanaLectura.setText(auxiliar);
         }
+       fichero.clear();
     }//GEN-LAST:event_AbrirActionPerformed
 
     private void VentanaLecturaKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_VentanaLecturaKeyPressed
@@ -158,6 +159,7 @@ public class Aplicacion extends javax.swing.JFrame {
         String auxiliar = VentanaLectura.getText();
         List<String> listaTextoPantalla = Arrays.asList(auxiliar.split("\n"));
         otroArchivo.escriboNuevoArchivo(listaTextoPantalla);
+        
     }//GEN-LAST:event_guardarActionPerformed
 
     /**
